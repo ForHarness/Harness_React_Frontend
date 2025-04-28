@@ -37,11 +37,11 @@ pipeline:
                   identifier: dockerbuild
                   name: docker_build
                   spec:
-                    caching: true
-                    connectorRef: <+input>
-                    repo: hello/world
+                    connectorRef: account.harnessImage
+                    repo: shubhamchav/harnessfront
                     tags:
                       - latest
+                    caching: false
                   timeout: ""
                   type: BuildAndPushDockerRegistry
           platform:
