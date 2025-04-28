@@ -38,7 +38,7 @@ pipeline:
                   name: docker_build
                   spec:
                     connectorRef: account.harnessImage
-                    repo: shubhamchav/harnessfront
+                    repo: shubhamchav/harnessfrontend
                     tags:
                       - latest
                     caching: false
