@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ForHarness_Harness_React_Frontend_1749718237996-push-trigger-input-set
+  identifier: Build_ForHarness_Harness_React_Frontend_1749718237996pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessDemo
+  pipeline:
+    identifier: Build_ForHarness_Harness_React_Frontend_1749718237996
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
