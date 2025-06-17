@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: react-container
-          image: shubhamchav/todolist-backend:latest  # Replace with your actual image
+          image: shubhamchav/harnessfrontend:latest  # Replace with your actual image
           ports:
             - containerPort: 3000
           resources:
